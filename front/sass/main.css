@@ -1,0 +1,71 @@
+#filter h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#filter div.checkbox {
+    width: 100%;
+    margin: 0 0 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+#filter div.checkbox label {
+    font-size: 15px;
+    margin: 0 0 0 10px;
+}
+
+div#results-header {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#results-header table {
+    border-top: 0;
+}
+
+#results-wrapper table tr {
+    width: 100%;
+}
+#results-wrapper .post-title p {
+    font-size: 12px;
+}
+
+#results-wrapper i.favorite {
+    color: #adad5c;
+}
+
+
+/** Loader **/
+.lds-dual-ring {
+    display: none;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    z-index: 99;
+}
+
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #000;
+    border-color: #000 transparent #000 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

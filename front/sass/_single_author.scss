@@ -1,0 +1,86 @@
+.KotwSearchs-single-author-wrapper {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	.author-header {
+		@include alignStart;
+		margin-bottom: 20px;
+		border: 1px solid #eee;
+		padding: 10px;
+		box-sizing: border-box;
+		.author-image {
+			flex:1;
+			img {
+				border-radius: 50%;
+			}
+		}
+		.author-info {
+			flex:2;
+			@include alignStart;
+			flex-direction: column;
+			.author-name {
+			
+			}
+			.author-links {
+				@include alignCenter;
+				flex-direction: row;
+				a {
+					i {
+						font-size: 25px;
+						margin: 20px;
+						&.fa-linkedin-square {
+							color: #2867B2;
+						}
+						&.fa-facebook-f {
+							color: #3b5998;
+						}
+					}
+				}
+			}
+		}
+		
+	}
+	
+	.author-bio {
+		border: 1px solid #eee;
+		padding: 10px;
+		box-sizing: border-box;
+		margin-bottom: 20px;
+		p {
+			font-size : 13px;
+		}
+		h1 {
+			font-size: 30px;
+		}
+		h2 {
+			font-size: 22px;
+			&.bio-header {
+				font-size: 25px;
+			}
+		}
+		h3 {
+			font-size: 20px;
+		}
+		h4 {
+			font-size: 18px;
+		}
+	}
+	
+	.author-gallery {
+		border: 1px solid #eee;
+		padding: 10px;
+		box-sizing: border-box;
+		margin-bottom: 20px;
+		
+		img {
+			width: 200px;
+			margin : 10px;
+		}
+	}
+	.author-posts {
+		border: 1px solid #eee;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+	
+}

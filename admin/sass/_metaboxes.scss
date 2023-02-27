@@ -1,0 +1,30 @@
+.authors_info-meta-box {
+	
+	&#authors_gallery {
+		.images-gallery {
+			img {
+				max-width: 200px;
+				margin: 10px;
+			}
+		}
+	}
+	
+	&#set_current_wordpress_user {
+		div.ajax-results {
+			box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+			padding: 0px 10px;
+			width: 50%;
+			ul {
+				width: 100%;
+				li {
+					width: 100%;
+					cursor: pointer;
+					padding: 5px;
+					&:hover {
+						background: #eeeeee;
+					}
+				}
+			}
+		}
+	}
+}

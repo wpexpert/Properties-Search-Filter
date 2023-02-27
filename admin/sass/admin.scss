@@ -1,0 +1,11 @@
+/** imports **/
+@import "variables.scss";
+@import "metaboxes";
+
+
+/** Post type authors, edit screen **/
+.post-type-authors {
+    input[name=post_title] {
+        display: none;
+    }
+}
